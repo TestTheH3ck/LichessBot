@@ -1,0 +1,38 @@
+.stuck {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    bottom: 10px;
+    width: 280px;
+    overflow-y: auto;
+    background-color: #eee;
+}
+
+.board {
+    width: 800px;
+    height: 800px;
+}
+
+.white {
+    display: inline-block;
+    background-color: #f8ffc0;
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    display: inline-block;
+    background-color: #02060a;
+    width: 100px;
+    height: 100px;
+}
+
+.Pawn-black {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 100px -100px;
+}
+
+.Pawn-white {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 100px 0px;
+}

@@ -3,9 +3,18 @@
 import 'babel-polyfill' ;
 import React from 'react';  
 import { render } from 'react-dom';  
-import App from './components/App';
+import ChatStart from './components/chatStart';
+import reducers from './reducers';
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux'
 
-render(  
- <App />,
+const createStoreWithMiddleware = applyMiddleware()(createStore);
+render(
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <ChatStart />
+  </Provider>,
  document.getElementById('main')
 );
+
+
+
