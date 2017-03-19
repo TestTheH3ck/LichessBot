@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa8b6d45-9de1-471a-878d-a2c0d7473928" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/containers/availableMove.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/types.js" afterPath="$PROJECT_DIR$/src/actions/types.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/chatStart.js" afterPath="$PROJECT_DIR$/src/components/chatStart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/ChessContainer.js" afterPath="$PROJECT_DIR$/src/components/containers/ChessContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/containers/MainContainer.js" afterPath="$PROJECT_DIR$/src/components/containers/MainContainer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nameForm.js" afterPath="$PROJECT_DIR$/src/components/nameForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/squadChess.js" afterPath="$PROJECT_DIR$/src/components/squadChess.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/chess-reducer.js" afterPath="$PROJECT_DIR$/src/reducers/chess-reducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/index.js" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/style.css" afterPath="$PROJECT_DIR$/src/style/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/server.js" afterPath="$PROJECT_DIR$/tools/server.js" />
-    </list>
+    <list default="true" id="aa8b6d45-9de1-471a-878d-a2c0d7473928" name="Default" comment="" />
     <ignored path="TESTTEST.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -489,15 +471,15 @@
       <workItem from="1489588214483" duration="12193000" />
       <workItem from="1489663234143" duration="636000" />
       <workItem from="1489667630905" duration="9429000" />
-      <workItem from="1489700686209" duration="45941000" />
+      <workItem from="1489700686209" duration="46528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="995871000" />
+    <option name="totallyTimeSpent" value="996458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11801897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
