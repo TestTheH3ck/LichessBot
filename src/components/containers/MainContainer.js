@@ -19,6 +19,7 @@ class ChatLogic extends React.Component {
   }
 
   componentDidMount() {
+
     console.log('Mounted');
     socket.on('chat message', (inboundMessage) => {
       const newMessage = {user: inboundMessage.message.user, message: inboundMessage.message.message};
@@ -49,7 +50,7 @@ class ChatLogic extends React.Component {
   render() {
     return (
       <div>
-        <FormGroup onSubmit={this.handleSubmit}>
+        <FormGroup onSubmit={this.handleSubmit} >
           <FormControl
             type="text"
             value={this.state.input}

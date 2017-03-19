@@ -1,38 +1,313 @@
 .stuck {
     position: fixed;
-    top: 100px;
-    right: 10px;
-    bottom: 10px;
+    left: 900px;
+    top: 270px;
+    height: 470px;
     width: 280px;
     overflow-y: auto;
     background-color: #eee;
 }
 
+.active{
+    background-color: red;
+}
+
+
+.UserForm {
+    display: inline-block;
+    width: 100% !important;
+}
+
+.chessHis {
+    display: inline-block;
+}
+
 .board {
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    background-image:url(https://lichess1.org/assets/images/board/svg/brown.svg);
     width: 800px;
     height: 800px;
 }
 
-.white {
+.history {
+    position: relative;
     display: inline-block;
-    background-color: #f8ffc0;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 2px;
+    top: 10px;
+    bottom: 10px;
+    overflow-y: auto;
+    background-color: #eee;
+}
+
+.LogedIn {
+    height: 50px !important;
+    margin-top: 35px;
+
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    display: inline-block;
+    max-width: 800px !important;
+    width: 800px !important;
+}
+
+
+.gridy {
+    width: 400px !important;
+}
+
+.signInForm-horizontal{
+    margin-top: 22%;
+    margin-left: 38%;
+    width: 25%;
+}
+
+.auth {
+    position: static;
+    width: 12%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.chessSystem{
+    width: 1305px;
+    margin: 35px auto 30px auto;
+}
+
+.body {
+    display: block;
+}
+
+
+.control-panel {
+    display: inline-block;
+    width: 500px;
+}
+
+.turn-board {
+
+    position: static;
+    display: inline-block;
+    background:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRlt9yAJaBP0EIjk46IsJ2SrjamO8Jg4fIAm2lvpoH8VPtDyD-_o0rNQ) ;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.test-style {
+    position: absolute;
+    transform: translate(192px, 320px);
+    background:url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/simple-black-square-icons-arrows/126441-simple-black-square-icon-arrows-arrow-circle-refresh.png);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.test1 {
+    position: absolute;
+    transform: translate(300px, 700px);
     width: 100px;
     height: 100px;
+}
+
+.test2 {
+    position: absolute;
+    transform: translate(300px, 600px);
+    width: 100px;
+    height: 100px;
+}
+
+.test3 {
+    position: absolute;
+    transform: translate(300px, 500px);
+    width: 100px;
+    height: 100px;
+}
+
+.test4 {
+    position: absolute;
+    transform: translate(300px, 400px);
+    width: 100px;
+    height: 100px;
+}
+
+.reset-board {
+    position: static;
+    display: inline-block;
+    background:url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/simple-black-square-icons-arrows/126441-simple-black-square-icon-arrows-arrow-circle-refresh.png);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+}
+
+.switch-auto {
+    position: absolute;
+    width: 60px;
+    height: 34px;
+}
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.white {
+    position: absolute;/*
+    background-color: #f8ffc0;*/
+    width: 12.5%;
+    height: 12.5%;
 }
 
 .black {
     display: inline-block;
-    background-color: #02060a;
     width: 100px;
+    opacity: 1;
     height: 100px;
+    z-index: 1;
+}
+
+.last-move {
+    background-color: rgba(255,0,0,0.2) ;
+}
+
+.circle {
+    background: radial-gradient(rgba(20,85,30,0.3) 17%,#208530 0,rgba(0,0,0,0.3) 0,rgba(0,0,0,0) 0);
+    opacity: 0.7;
+    z-index: 4;
+    /* width and height can be anything, as long as they're equal */
 }
 
 .Pawn-black {
+    position: absolute;
     background-image: url(../../imgs/Chess-Pieces.png);
     background-position: 100px -100px;
 }
 
 .Pawn-white {
+    position: absolute;
     background-image: url(../../imgs/Chess-Pieces.png);
     background-position: 100px 0px;
+}
+
+.Knight-black {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 500px -100px;
+}
+
+.animate {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.Knight-white {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 500px 0px;
+}
+
+.Bishop-white {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 400px 0px;
+}
+
+li {
+    width: 60px;
+    padding:0px; /* Убираем поля */
+    margin-left: 2px; /* Отступ слева */
+}
+
+ol {
+    padding:0px; /* Убираем поля */
+    margin-left: 20px; /* Отступ слева */
+}
+
+.Bishop-black {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 400px -100px;
+}
+.Rook-white {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 600px 0px;
+}
+
+.Rook-black {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 600px -100px;
+}
+
+.Queen-white {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 300px 0px;
+}
+
+.Queen-black {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 300px -100px;
+}
+
+.King-black {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 200px -100px;
+}
+
+.King-white {
+    background-image: url(../../imgs/Chess-Pieces.png);
+    background-position: 200px 0px;
 }
